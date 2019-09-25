@@ -1,0 +1,22 @@
+{
+  "SERVICE": {
+    "value": "general-cache-service",
+    "type": "id"
+  },
+  "STATEFUL": {
+    "value": "general-cache-set",
+    "type": "id"
+  },
+  "INTERNAL_HOST": {
+    "value": "general-cache-service.microservices-namespace",
+    "type": "host"
+  },
+  "INTERNAL_PORT": {
+    "value": 6379,
+    "type": "port"
+  },
+  "INTERNAL_URL": {
+    "value": "general-cache-service.microservices-namespace:6379",
+    "type": "url"
+  }
+}
